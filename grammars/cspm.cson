@@ -14,7 +14,7 @@ patterns: [
     name: "keyword.other.semanticmodel.cspm"
   }
   {
-    match: ":\\[(deadlock free|deadlock-free|deterministic|divergence free|divergence-free|livelock free|livelock-free)( \\[F\\]| \\[FD\\])?\\]"
+    match: ":\\[(deadlock free|deadlock-free|deterministic|divergence free|divergence-free|livelock free|livelock-free|has trace)( \\[F\\]| \\[FD\\])?\\]"
     name: "keyword.other.assertion.cspm"
   }
   {
