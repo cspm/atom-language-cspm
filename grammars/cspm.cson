@@ -26,7 +26,7 @@ patterns: [
     name: "keyword.operator.cspm"
   }
   {
-    match: "\\b(assert|datatype|let|within|nametype|channel|external|transparent)\\b"
+    match: "\\b(assert|datatype|subtype|let|within|nametype|channel|external|transparent)\\b"
     name: "keyword.other.cspm"
   }
   {
